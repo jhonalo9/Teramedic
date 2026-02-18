@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contacto — Teramedic</title>
+  <meta name="description" content="Contáctanos para agendar tu cita o resolver dudas. Estamos en Miraflores, Lima.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,400&family=DM+Sans:wght@300;400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<!-- NAVBAR -->
+<nav id="navbar">
+  <a href="index.html" class="logo">
+    <img src="logo.png" alt="Teramedic">
+  </a>
+  <ul class="nav-links">
+    <li><a href="index.html">Inicio</a></li>
+    <li><a href="nosotros.html">Nosotros</a></li>
+    <li><a href="servicios.html">Servicios</a></li>
+    <li><a href="contacto.html" class="active">Contacto</a></li>
+  </ul>
+  <div class="nav-cta">
+    <a href="https://wa.me/51971917432?text=Hola%20Teramedic,%20deseo%20reservar%20una%20cita" class="btn-primary" target="_blank">Reservar cita</a>
+  </div>
+  <div class="hamburger" id="hamburger" aria-label="Menú">
+    <span></span><span></span><span></span>
+  </div>
+</nav>
+
+<!-- Mobile menu -->
+<div class="mobile-menu" id="mobileMenu">
+  <a href="index.html">Inicio</a>
+  <a href="nosotros.html">Nosotros</a>
+  <a href="servicios.html">Servicios</a>
+  <a href="contacto.html">Contacto</a>
+  <a href="https://wa.me/51971917432?text=Hola%20Teramedic,%20deseo%20reservar%20una%20cita" class="btn-primary" target="_blank">Reservar cita</a>
+</div>
+
+<!-- CONTACTO (Usamos la estructura del footer original como cuerpo principal) -->
+<footer id="contacto" style="min-height: 100vh; padding-top: 120px;">
+  <div class="contact-grid">
+    <!-- Formulario -->
+    <div class="contact-form">
+      <h3>Contáctanos</h3>
+      <p>¿Tienes dudas? Escríbenos y te respondemos en menos de 24 horas.</p>
+      <div class="form-row">
+        <div class="form-group">
+          <label>Nombre</label>
+          <input type="text" placeholder="Tu nombre">
+        </div>
+        <div class="form-group">
+          <label>Teléfono</label>
+          <input type="tel" placeholder="+51 999 000 000">
+        </div>
+      </div>
+      <div class="form-group">
+        <label>Correo electrónico</label>
+        <input type="email" placeholder="tu@email.com">
+      </div>
+      <div class="form-group">
+        <label>Servicio de interés</label>
+        <select>
+          <option value="">Seleccionar servicio...</option>
+          <option>Terapia Hiperbárica</option>
+          <option>Terapia Neuromuscular</option>
+          <option>Rehabilitación Física</option>
+          <option>Acupuntura</option>
+          <option>Masoterapia Terapéutica</option>
+          <option>Terapia Psicológica</option>
+          <option>Electroterapia</option>
+          <option>Terapia Ocupacional</option>
+        </select>
+      </div>
+      <div class="form-group">
+        <label>Mensaje</label>
+        <textarea placeholder="Cuéntanos cómo podemos ayudarte..."></textarea>
+      </div>
+      <button class="btn-primary form-submit">Enviar mensaje</button>
+    </div>
+
+    <!-- Info -->
+    <div class="contact-info">
+      <h3>Información de contacto</h3>
+      <div class="info-item">
+        <div class="info-icon">📍</div>
+        <div>
+          <div class="info-label">Dirección</div>
+          <div class="info-value">Calle Leticia 389 - Chiclayo</div>
+        </div>
+      </div>
+      <div class="info-item">
+        <div class="info-icon">📞</div>
+        <div>
+          <div class="info-label">Teléfono</div>
+          <div class="info-value">+51 971 917 432</div>
+        </div>
+      </div>
+      <div class="info-item">
+        <div class="info-icon">✉</div>
+        <div>
+          <div class="info-label">Correo</div>
+          <div class="info-value">hola@teramedic.pe</div>
+        </div>
+      </div>
+      <div class="info-item">
+        <div class="info-icon">⏰</div>
+        <div>
+          <div class="info-label">Horario</div>
+          <div class="info-value">Lun – Sáb: 8:00 am – 7:00 pm</div>
+        </div>
+      </div>
+      <div class="social-row">
+        <a href="https://www.facebook.com/share/1G8E2pyRAT/" class="social-btn" title="Facebook" target="_blank">f</a>
+        <a href="#" class="social-btn" title="Instagram">📷</a>
+        <a href="#" class="social-btn" title="TikTok">🎵</a>
+        <a href="#" class="social-btn" title="YouTube">▶</a>
+        <a href="https://wa.me/51971917432" class="social-btn" title="WhatsApp" target="_blank">💬</a>
+      </div>
+      <div style="margin-top:2.5rem;padding:1.5rem;background:rgba(91,191,219,.1);border-radius:16px;border:1px solid rgba(91,191,219,.2);">
+        <p style="font-size:.82rem;color:rgba(255,255,255,.6);line-height:1.7">
+          🔒 Tus datos están protegidos bajo nuestras políticas de privacidad y cumplimos con la Ley de Protección de Datos Personales (Ley N° 29733).
+        </p>
+      </div>
+    </div>
+  </div>
+
+  <div class="footer-bottom">
+    <span>© 2026 Teramedic. Todos los derechos reservados.</span>
+    <span>Diseñado con 💙 para tu bienestar</span>
+    <span>🔒 HTTPS · Datos protegidos</span>
+  </div>
+</footer>
+
+<!-- MODAL RESERVA -->
+<div class="modal-overlay" id="reservaModal">
+  <div class="modal-box">
+    <button class="modal-close" id="modalClose">✕</button>
+    <h3>Reservar mi cita</h3>
+    <p class="modal-sub">Completa los pasos para confirmar tu sesión en minutos.</p>
+    <div class="step-indicator">
+      <div class="step-dot active" id="dot1">1</div>
+      <div class="step-line" id="line1"></div>
+      <div class="step-dot" id="dot2">2</div>
+      <div class="step-line" id="line2"></div>
+      <div class="step-dot" id="dot3">3</div>
+      <div class="step-line" id="line3"></div>
+      <div class="step-dot" id="dot4">4</div>
+    </div>
+    <!-- PASO 1 -->
+    <div class="modal-step active" id="step1">
+      <h4>¿Qué terapia necesitas?</h4>
+      <div class="service-options">
+        <div class="svc-opt chosen"><div class="emoji">🫧</div><div class="name">Hiperbárica</div></div>
+        <div class="svc-opt"><div class="emoji">💪</div><div class="name">Neuromuscular</div></div>
+        <div class="svc-opt"><div class="emoji">🦾</div><div class="name">Rehabilitación</div></div>
+        <div class="svc-opt"><div class="emoji">🪡</div><div class="name">Acupuntura</div></div>
+        <div class="svc-opt"><div class="emoji">🤲</div><div class="name">Masoterapia</div></div>
+        <div class="svc-opt"><div class="emoji">🧠</div><div class="name">Psicología</div></div>
+        <div class="svc-opt"><div class="emoji">⚡</div><div class="name">Electroterapia</div></div>
+        <div class="svc-opt"><div class="emoji">🧘</div><div class="name">T. Ocupacional</div></div>
+      </div>
+      <div class="modal-nav"><span></span><button class="btn-primary" onclick="nextStep()">Siguiente →</button></div>
+    </div>
+    <!-- PASO 2 -->
+    <div class="modal-step" id="step2">
+      <h4>Elige tu terapeuta</h4>
+      <div class="therapist-options">
+        <div class="th-opt chosen">
+          <div class="th-ava">MS</div>
+          <div><div class="th-name">Dra. María Solís</div><div class="th-spec">Hiperbárica · Rehabilitación</div></div>
+          <span class="th-avail">● Disponible</span>
+        </div>
+        <div class="th-opt">
+          <div class="th-ava">JP</div>
+          <div><div class="th-name">Lic. Juan Peña</div><div class="th-spec">Neuromuscular · Acupuntura</div></div>
+          <span class="th-avail">● Disponible</span>
+        </div>
+        <div class="th-opt">
+          <div class="th-ava">CR</div>
+          <div><div class="th-name">Dra. Carla Ríos</div><div class="th-spec">Psicología · T. Ocupacional</div></div>
+          <span class="th-avail">● Disponible</span>
+        </div>
+        <div class="th-opt">
+          <div class="th-ava">RV</div>
+          <div><div class="th-name">Lic. Roberto Vega</div><div class="th-spec">Acupuntura · Masoterapia</div></div>
+          <span class="th-avail" style="color:#f59e0b">● Limitado</span>
+        </div>
+      </div>
+      <div class="modal-nav"><button class="btn-outline" onclick="prevStep()">← Atrás</button><button class="btn-primary" onclick="nextStep()">Siguiente →</button></div>
+    </div>
+    <!-- PASO 3 -->
+    <div class="modal-step" id="step3">
+      <h4>Selecciona fecha y hora</h4>
+      <div class="mini-cal">
+        <div class="mini-cal-header">
+          <button class="mini-cal-nav" onclick="miniCalPrev()">◀</button>
+          <span class="mini-cal-month" id="miniCalMonth">Febrero 2026</span>
+          <button class="mini-cal-nav" onclick="miniCalNext()">▶</button>
+        </div>
+        <div class="mini-cal-days" id="miniCalDays"></div>
+      </div>
+      <div style="font-size:.78rem;font-weight:700;text-transform:uppercase;letter-spacing:.07em;color:var(--mid);margin-bottom:.6rem;">Horarios disponibles</div>
+      <div class="time-slots">
+        <span class="tslot chosen">9:00 AM</span><span class="tslot">10:00 AM</span><span class="tslot">11:00 AM</span><span class="tslot">12:00 PM</span>
+        <span class="tslot">2:00 PM</span><span class="tslot">3:00 PM</span><span class="tslot">4:30 PM</span><span class="tslot">5:30 PM</span>
+      </div>
+      <div class="modal-nav"><button class="btn-outline" onclick="prevStep()">← Atrás</button><button class="btn-primary" onclick="confirmReserva()">Confirmar →</button></div>
+    </div>
+    <!-- PASO 4 -->
+    <div class="modal-step" id="step4">
+      <div class="success-screen">
+        <div class="success-icon">🎉</div>
+        <h3>¡Cita reservada!</h3>
+        <p id="summaryText" style="margin-bottom:1rem;"></p>
+        <p>Recibirás una confirmación por <strong>email</strong> y <strong>WhatsApp</strong> en los próximos minutos.</p>
+        <div style="margin-top:1.75rem;display:flex;gap:.75rem;justify-content:center;flex-wrap:wrap;">
+          <button class="btn-primary" onclick="closeModal()">Aceptar</button>
+          <a href="https://wa.me/51971917432" class="btn-outline" target="_blank">Contactar por WhatsApp</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<a href="https://wa.me/51971917432" class="wa-float" target="_blank" title="Chatea por WhatsApp">💬</a>
+<script src="main.js"></script>
+</body>
+</html>
